@@ -1,0 +1,213 @@
+/* start side nav  */
+#sideNav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    z-index: 9999;
+}
+
+#sideNav .navAnchor {
+    padding: 40px 0 0 0;
+    position: relative;
+}
+
+#sideNav .navAnchor ul {
+    padding: 0 20px 0 20px;
+}
+
+#sideNav .navAnchor ul li {
+    padding: 25px;
+    list-style: none;
+    cursor: pointer;
+}
+
+#sideNav .navAnchor ul li:hover a {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+#sideNav .navAnchor ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: 0.3s all;
+}
+
+
+.closeIcon {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 26px;
+    margin-left: 50px;
+    color: white;
+}
+
+.navIcon {
+    border-radius: 20px 20px;
+}
+
+.navIcon i,
+.navIcon h4 {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+    .navIcon {
+        align-self: flex-start !important;
+    }
+
+    .navIcon .navIcon-content {
+        flex-direction: column;
+    }
+}
+
+/* end side nav  */
+
+/* start header section*/
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),
+        url(../imgs/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+/* end header section*/
+
+/* start Acordion section  */
+#Acordion {
+    padding: 100px auto;
+}
+
+.toggle {
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+.inner {
+    background-color: rgb(204, 204, 204);
+    display: none;
+    padding: 10px;
+}
+
+#Acordion .first {
+    display: block;
+}
+
+/* end Acordion section  */
+
+/* start count section  */
+
+#count {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imgs/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.container-fluid {
+    padding: 100px 0px;
+}
+
+.time {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* end count section  */
+
+/* start contact-us section  */
+#contact {
+    margin-top: 70px;
+}
+
+#contact .head h2 {
+    font-size: 35px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#contact .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#contact .col-md-6 .col-info .icons {
+    margin-top: 50px;
+}
+
+#contact .col-md-6 .col-info .icons p {
+    margin-bottom: 35px;
+}
+
+#contact .col-md-6 .col-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#contact .col-md-6 .col-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+
+#contact i {
+    margin-right: 20px;
+    color: #777;
+}
+
+#contact .col-md-6 .col-info .social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s all;
+}
+
+#contact .col-md-6 .col-info .social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+
+#contact .col-md-6 form input,
+#contact .col-md-6 form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+
+#contact .col-md-6 form textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+#contact .col-md-6 form button {
+    padding: 10px 20px;
+    border-radius: 0;
+    margin-top: 20px;
+    display: block;
+}
+
+#contact .col-md-6 form #chars {
+    font-size: 20px;
+}
+/* end contact-us section  */
